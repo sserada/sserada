@@ -1,6 +1,6 @@
 # Hi, I'm So 👋
 
-Software Engineer
+Master's Student | Incoming Data Scientist
 
 ## 💻 Tech Stack
 - **Languages**: TypeScript (Svelte, Vue), Python, LuaScript
