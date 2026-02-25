@@ -6,18 +6,11 @@ Master's Student | Incoming Data Scientist
 - **Languages**: TypeScript (Svelte, Vue), Python, LuaScript
 - **Tools**: Docker
 
-## 📊 GitHub Stats
-
-<div align="center">
-
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=sserada&theme=minimal&hide_border=true)](https://git.io/streak-stats)
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=sserada&show_icons=true&theme=minimal&hide_border=true&count_private=true)
-
-</div>
-
 ## 📫 Links
-- 📝 Blog (日本語): [Zenn](https://zenn.dev/serada)
-- 📝 Blog (English): [DEV](https://dev.to/serada)
-- 🐦 X: [@_serada](https://x.com/_serada)
-- 📧 Email: [serada.dev@gmail.com](mailto:serada.dev@gmail.com)
+
+<p align="center">
+  <a href="https://zenn.dev/serada"><img src="https://img.shields.io/badge/Zenn-3EA8FF?style=flat-square&logo=zenn&logoColor=white" alt="Zenn"></a>
+  <a href="https://dev.to/serada"><img src="https://img.shields.io/badge/DEV-0A0A0A?style=flat-square&logo=devdotto&logoColor=white" alt="DEV"></a>
+  <a href="https://x.com/_serada"><img src="https://img.shields.io/badge/@_serada-000000?style=flat-square&logo=x&logoColor=white" alt="X"></a>
+  <a href="mailto:serada.dev@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
+</p>
