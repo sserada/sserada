@@ -19,3 +19,19 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           USERNAME: ${{ github.repository_owner }}
+
+      - name: Keep only apprentice theme
+        run: |
+          cd profile-summary-card-output
+          # apprentice以外のテーマディレクトリを削除
+          find . -maxdepth 1 -type d ! -name apprentice ! -name . -exec rm -rf {} +
+          # READMEも削除
+          rm -f README.md
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add profile-summary-card-output
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update GitHub profile summary cards"
+          git push

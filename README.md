@@ -12,3 +12,11 @@ Master's Student | Incoming Data Scientist
 ## 💻 Tech Stack
 - **Languages**: TypeScript (Svelte, Vue), Python, LuaScript
 - **Tools**: Docker
+
+## 📊 GitHub Stats
+
+![Profile Details](profile-summary-card-output/apprentice/0-profile-details.svg)
+![Stats](profile-summary-card-output/apprentice/3-stats.svg)
+![Repos per Language](profile-summary-card-output/apprentice/1-repos-per-language.svg)
+![Most Commit Language](profile-summary-card-output/apprentice/2-most-commit-language.svg)
+![Productive Time](profile-summary-card-output/apprentice/4-productive-time.svg)
