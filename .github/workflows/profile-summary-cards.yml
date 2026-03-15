@@ -34,11 +34,9 @@ jobs:
         run: |
           # 直近1ヶ月に更新されたパブリックリポジトリを取得（フォーク・プロフィールリポジトリ除外）
           ONE_MONTH_AGO=$(date -d '1 month ago' +%Y-%m-%dT%H:%M:%SZ 2>/dev/null || date -v-1m +%Y-%m-%dT%H:%M:%SZ)
-          PROJECTS=$(gh api "users/${{ github.repository_owner }}/repos?sort=updated&per_page=30&type=owner" \
-            --jq --arg since "$ONE_MONTH_AGO" '[.[] | select(.fork == false and .private == false and .name != "${{ github.repository_owner }}" and .updated_at > $since)]')
-
-          # 箇条書きを生成
-          TABLE=$(echo "$PROJECTS" | jq -r '.[] |
+          TABLE=$(gh api "users/${{ github.repository_owner }}/repos?sort=updated&per_page=30&type=owner" \
+            | jq -r --arg since "$ONE_MONTH_AGO" --arg owner "${{ github.repository_owner }}" \
+            '[.[] | select(.fork == false and .private == false and .name != $owner and .updated_at > $since)] | .[] |
             "- [\(.name)](\(.html_url)) — \(.description // "-") (Last update: \(.updated_at | split("T")[0]))"')
 
           # README内のマーカー間を置換
