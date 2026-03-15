@@ -17,6 +17,6 @@ Master's Student | Incoming Data Scientist
 
 ![GitHub Streak](profile-summary-card-output/streak-stats.svg)
 
-![Profile Details](profile-summary-card-output/apprentice/0-profile-details.svg)
-![Stats](profile-summary-card-output/apprentice/3-stats.svg)
-![Repos per Language](profile-summary-card-output/apprentice/1-repos-per-language.svg)
+![Profile Details](profile-summary-card-output/dracula/0-profile-details.svg)
+![Stats](profile-summary-card-output/dracula/3-stats.svg)
+![Repos per Language](profile-summary-card-output/dracula/1-repos-per-language.svg)

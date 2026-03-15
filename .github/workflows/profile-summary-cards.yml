@@ -20,18 +20,18 @@ jobs:
         with:
           USERNAME: ${{ github.repository_owner }}
 
-      - name: Keep only apprentice theme
+      - name: Keep only dracula theme
         run: |
           cd profile-summary-card-output
-          # apprentice以外のテーマディレクトリを削除
-          find . -maxdepth 1 -type d ! -name apprentice ! -name . -exec rm -rf {} +
+          # dracula以外のテーマディレクトリを削除
+          find . -maxdepth 1 -type d ! -name dracula ! -name . -exec rm -rf {} +
           # READMEも削除
           rm -f README.md
 
       - name: Generate streak stats SVG
         run: |
           curl -s -o profile-summary-card-output/streak-stats.svg \
-            "https://streak-stats.demolab.com/?user=${{ github.repository_owner }}&theme=transparent&hide_border=true&type=svg"
+            "https://streak-stats.demolab.com/?user=${{ github.repository_owner }}&theme=dracula&hide_border=true&type=svg"
 
       - name: Commit and push changes
         run: |
