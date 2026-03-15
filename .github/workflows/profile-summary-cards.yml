@@ -28,6 +28,26 @@ jobs:
           # READMEも削除
           rm -f README.md
 
+      - name: Update recent projects in README
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # 直近1ヶ月に更新されたパブリックリポジトリを取得（フォーク・プロフィールリポジトリ除外）
+          ONE_MONTH_AGO=$(date -d '1 month ago' +%Y-%m-%dT%H:%M:%SZ 2>/dev/null || date -v-1m +%Y-%m-%dT%H:%M:%SZ)
+          PROJECTS=$(gh api "users/${{ github.repository_owner }}/repos?sort=updated&per_page=30&type=owner" \
+            --jq --arg since "$ONE_MONTH_AGO" '[.[] | select(.fork == false and .private == false and .name != "${{ github.repository_owner }}" and .updated_at > $since)]')
+
+          # 箇条書きを生成
+          TABLE=$(echo "$PROJECTS" | jq -r '.[] |
+            "- [\(.name)](\(.html_url)) — \(.description // "-") (Last update: \(.updated_at | split("T")[0]))"')
+
+          # README内のマーカー間を置換
+          awk -v table="$TABLE" '
+            /<!-- RECENT-PROJECTS:START -->/ { print; printf "%s\n", table; skip=1; next }
+            /<!-- RECENT-PROJECTS:END -->/ { skip=0 }
+            !skip { print }
+          ' README.md > README.tmp && mv README.tmp README.md
+
       - name: Generate streak stats SVG
         run: |
           curl -s -o profile-summary-card-output/streak-stats.svg \
@@ -37,6 +57,6 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add profile-summary-card-output
+          git add profile-summary-card-output README.md
           git diff --quiet && git diff --staged --quiet || git commit -m "Update GitHub profile summary cards"
           git push

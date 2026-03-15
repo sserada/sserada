@@ -12,6 +12,11 @@ Master's Student | Incoming Data Scientist
 - **Languages**: TypeScript (Svelte, Vue), Python, LuaScript
 - **Tools**: Docker
 
+## 🚀 Recent Projects
+
+<!-- RECENT-PROJECTS:START -->
+<!-- RECENT-PROJECTS:END -->
+
 ## 📊 GitHub Stats
 
 ![Profile Details](profile-summary-card-output/dracula/0-profile-details.svg)
