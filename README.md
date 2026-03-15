@@ -15,6 +15,8 @@ Master's Student | Incoming Data Scientist
 
 ## 📊 GitHub Stats
 
+![GitHub Streak](profile-summary-card-output/streak-stats.svg)
+
 ![Profile Details](profile-summary-card-output/apprentice/0-profile-details.svg)
 ![Stats](profile-summary-card-output/apprentice/3-stats.svg)
 ![Repos per Language](profile-summary-card-output/apprentice/1-repos-per-language.svg)

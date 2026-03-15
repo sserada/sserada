@@ -1,4 +1,4 @@
-name: GitHub Profile Summary Cards
+name: Update GitHub Profile
 
 on:
   schedule:
@@ -27,6 +27,11 @@ jobs:
           find . -maxdepth 1 -type d ! -name apprentice ! -name . -exec rm -rf {} +
           # READMEも削除
           rm -f README.md
+
+      - name: Generate streak stats SVG
+        run: |
+          curl -s -o profile-summary-card-output/streak-stats.svg \
+            "https://streak-stats.demolab.com/?user=${{ github.repository_owner }}&theme=transparent&hide_border=true&type=svg"
 
       - name: Commit and push changes
         run: |
