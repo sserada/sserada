@@ -10,7 +10,7 @@ Master's Student | Incoming Data Scientist
 ## 💻 Tech Stack
 
 - **Languages**: TypeScript (Svelte, Vue), Python, LuaScript
-- **Tools**: Docker
+- **Tools**: Docker, Neovim, GitHub Actions
 
 ## 🚀 Recent Projects
 
