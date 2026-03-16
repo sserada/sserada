@@ -17,7 +17,6 @@ Master's Student | Incoming Data Scientist
 <!-- RECENT-PROJECTS:START -->
 - [dfcontext](https://github.com/sserada/dfcontext) — Generate optimal LLM context from pandas DataFrames within a token budget. (Last update: 2026-03-15)
 - [image-to-svg](https://github.com/sserada/image-to-svg) — Modern raster to vector converter powered by VTracer. Svelte + FastAPI with support for PNG/JPG, batch conversion, and  real-time tracking. (Last update: 2026-03-15)
-- [dotfiles](https://github.com/sserada/dotfiles) — ⚙️ Dotfiles for my development environment (Shell & Vim focused). (Last update: 2026-03-11)
 - [spartan-pomo.nvim](https://github.com/sserada/spartan-pomo.nvim) — A Neovim Pomodoro timer that forces you to rest. It locks your screen and disables input during breaks. (Last update: 2026-03-07)
 <!-- RECENT-PROJECTS:END -->
 
