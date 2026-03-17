@@ -15,6 +15,7 @@ Master's Student | Incoming Data Scientist
 ## 🚀 Recent Projects
 
 <!-- RECENT-PROJECTS:START -->
+- [llm-glass](https://github.com/sserada/llm-glass) — Chrome DevTools for LLM API calls. A local proxy that displays all LLM requests/responses in a real-time dashboard. (Last update: 2026-03-17)
 - [claude-bridge](https://github.com/sserada/claude-bridge) — Sync your Claude Code conversations and settings across machines — encrypted with age, stored in your private Git repo. (Last update: 2026-03-16)
 - [sdpbl3-tex](https://github.com/sserada/sdpbl3-tex) — SD PBL(3)最終課題をTeXでやるためのテンプレート (Last update: 2026-03-16)
 - [image-to-svg](https://github.com/sserada/image-to-svg) — Modern raster to vector converter powered by VTracer. Svelte + FastAPI with support for PNG/JPG, batch conversion, and  real-time tracking. (Last update: 2026-03-16)
