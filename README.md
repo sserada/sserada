@@ -15,8 +15,10 @@ Master's Student | Incoming Data Scientist
 ## 🚀 Recent Projects
 
 <!-- RECENT-PROJECTS:START -->
-- [dfcontext](https://github.com/sserada/dfcontext) — Generate optimal LLM context from pandas DataFrames within a token budget. (Last update: 2026-03-15)
-- [image-to-svg](https://github.com/sserada/image-to-svg) — Modern raster to vector converter powered by VTracer. Svelte + FastAPI with support for PNG/JPG, batch conversion, and  real-time tracking. (Last update: 2026-03-15)
+- [claude-bridge](https://github.com/sserada/claude-bridge) — Sync your Claude Code conversations and settings across machines — encrypted with age, stored in your private Git repo. (Last update: 2026-03-16)
+- [sdpbl3-tex](https://github.com/sserada/sdpbl3-tex) — SD PBL(3)最終課題をTeXでやるためのテンプレート (Last update: 2026-03-16)
+- [image-to-svg](https://github.com/sserada/image-to-svg) — Modern raster to vector converter powered by VTracer. Svelte + FastAPI with support for PNG/JPG, batch conversion, and  real-time tracking. (Last update: 2026-03-16)
+- [dfcontext](https://github.com/sserada/dfcontext) — Generate optimal LLM context from pandas DataFrames within a token budget. (Last update: 2026-03-16)
 - [spartan-pomo.nvim](https://github.com/sserada/spartan-pomo.nvim) — A Neovim Pomodoro timer that forces you to rest. It locks your screen and disables input during breaks. (Last update: 2026-03-07)
 <!-- RECENT-PROJECTS:END -->
 
