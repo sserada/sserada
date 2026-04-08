@@ -19,7 +19,6 @@ Master's Student | Incoming Data Scientist
 - [dfcontext](https://github.com/sserada/dfcontext) — Generate optimal LLM context from pandas DataFrames within a token budget. (Last update: 2026-04-06)
 - [claude-bridge](https://github.com/sserada/claude-bridge) — Sync your Claude Code conversations and settings across machines — encrypted with age, stored in your private Git repo. (Last update: 2026-03-17)
 - [llm-glass](https://github.com/sserada/llm-glass) — Chrome DevTools for LLM API calls. A local proxy that displays all LLM requests/responses in a real-time dashboard. (Last update: 2026-03-17)
-- [spartan-pomo.nvim](https://github.com/sserada/spartan-pomo.nvim) — A Neovim Pomodoro timer that forces you to rest. It locks your screen and disables input during breaks. (Last update: 2026-03-07)
 <!-- RECENT-PROJECTS:END -->
 
 ## 📊 GitHub Stats
