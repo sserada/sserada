@@ -1,6 +1,7 @@
 <p align="left">
   <a href="https://zenn.dev/serada"><img src="https://img.shields.io/badge/Zenn-3EA8FF?style=flat-square&logo=zenn&logoColor=white" alt="Zenn"></a>
   <a href="mailto:serada.dev@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://www.kaggle.com/sserada"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white" alt="Kaggle"></a>
 </p>
 
 # Hi, I'm So 👋
@@ -11,6 +12,10 @@ AI / Data Engineer
 
 - **Languages**: TypeScript (Svelte, Vue), Python, LuaScript
 - **Tools**: Docker, Terraform, Neovim, GitHub Actions
+
+## 🏅 Kaggle
+
+- **Competition Expert** — [kaggle.com/sserada](https://www.kaggle.com/sserada)
 
 ## 🚀 Recent Projects
 
