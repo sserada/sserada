@@ -10,7 +10,7 @@ AI / Data Engineer
 ## 💻 Tech Stack
 
 - **Languages**: TypeScript (Svelte, Vue), Python, LuaScript
-- **Tools**: Docker, Neovim, GitHub Actions
+- **Tools**: Docker, Terraform, Neovim, GitHub Actions
 
 ## 🚀 Recent Projects
 
