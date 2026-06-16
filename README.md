@@ -5,7 +5,7 @@
 
 # Hi, I'm So 👋
 
-Master's Student | Incoming Data Scientist
+AI / Data Engineer
 
 ## 💻 Tech Stack
 
