@@ -20,8 +20,8 @@ AI / Data Engineer
 ## 🚀 Recent Projects
 
 <!-- RECENT-PROJECTS:START -->
+- [fuseji](https://github.com/sserada/fuseji) — 日本語特化のPII検出・マスキングミドルウェア（LLMオブザーバビリティ向け） (Last update: 2026-09-17)
 - [image-to-svg](https://github.com/sserada/image-to-svg) — Modern raster to vector converter powered by VTracer. Svelte + FastAPI with support for PNG/JPG, batch conversion, and  real-time tracking. (Last update: 2026-09-13)
-- [fuseji](https://github.com/sserada/fuseji) — 日本語特化のPII検出・マスキングミドルウェア（LLMオブザーバビリティ向け） (Last update: 2026-08-27)
 <!-- RECENT-PROJECTS:END -->
 
 ## 📊 GitHub Stats
