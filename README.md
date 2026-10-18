@@ -20,7 +20,7 @@ AI / Data Engineer
 ## 🚀 Recent Projects
 
 <!-- RECENT-PROJECTS:START -->
-- [fuseji](https://github.com/sserada/fuseji) — 日本語特化のPII検出・マスキングミドルウェア（LLMオブザーバビリティ向け） (Last update: 2026-09-17)
+
 <!-- RECENT-PROJECTS:END -->
 
 ## 📊 GitHub Stats
