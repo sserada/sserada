@@ -20,7 +20,7 @@ AI / Data Engineer
 ## 🚀 Recent Projects
 
 <!-- RECENT-PROJECTS:START -->
-- [image-to-svg](https://github.com/sserada/image-to-svg) — Modern raster to vector converter powered by VTracer. Svelte + FastAPI with support for PNG/JPG, batch conversion, and  real-time tracking. (Last update: 2026-11-03)
+- [image-to-svg](https://github.com/sserada/image-to-svg) — Modern raster to vector converter powered by VTracer. Svelte + FastAPI with support for PNG/JPG, batch conversion, and  real-time tracking. (Last update: 2026-11-05)
 <!-- RECENT-PROJECTS:END -->
 
 ## 📊 GitHub Stats
